@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NFC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">NFC:</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#introducao">Introdução</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#funcionamento">Funcionamento</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#ecossistema">Ecossistema</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#aplicacoes">Aplicações</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#conclusao">Conclusão</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#referencias">Referências</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/nfcLogo.png" alt="">
+        <h1 class="text-uppercase mb-0">Near Field Communication</h1>
+        <hr>
+        <h2 class="font-weight-light mb-0">
+          Gabriel de Oliveira da Fonseca -
+          Gustavo Pires Machado -
+          Thiago Leal Damásio Machado
+        </h2>
+      </div>
+    </header>
+
+    <!-- Introdução -->
+    <section id="introducao">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Introdução</h2>
+        <hr class="mb-5">
+        <div class="row">
+          <div class="ml-auto justifiedText">
+            <p class="lead">
+              O  NFC, Comunicação por Campo de Proximidade (do inglês Near Field
+              Communication), é uma tecnologia que permite a transferência de
+              informações entre dois aparelhos compatíveis sem ser necessário o
+              contato entre os mesmo ou processos longos de pareamento. O NFC
+              foi criado em 2003 pelas empresas Sony e Philips com o objetivo
+              de ser uma tecnologia de conexão de curta distância de forma
+              segura. Logo após sua criação, a Organização Internacional para
+              padronização adotou a ISO/IEC 18092 como interface e protocolo de
+              fundação do NFC. <sup><a href="#referencias">[2]</a></sup>
+            </p>
+            <p class="lead">
+              Em 2004, Sony, Phillips e Nokia criaram em conjunto o
+              NFC Forum <sup><a href="#referencias">[2]</a></sup>, instituição
+              sem fins lucrativos que alavancou e centralizou o desenvolvimento
+              científico acerca da tecnologia. Apesar da grande aderência na
+              Ásia e na Europa Oriental, os Estados Unidos demoraram a
+              implementar a utilização. Contudo, em 2011 o Vale do Silício
+              começou a atrair atenção para a tecnologia, com empresas como
+              Google e Rovio fazendo pesquisas na área.
+            </p>
+            <p class="lead">
+              As tecnologias sem fio estão em ascensão no mundo todo, visto a
+              grande leva de benefícios que tais trazem para os indivíduos e
+              diversos negócios. Dentre eles, pode-se citar a portabilidade,
+              praticidade e segurança de dados. A tendência é que todo o
+              processo comunicativo seja automatizado e não dependa de conexões
+              via cabo. Com isso, é natural que os mais diversos ramos da
+              economia aumentem sua demanda por tecnologias sem fio específicas
+              para cada uma das características citadas.
+            </p>
+            <p class="lead">
+              A segunda década do século XXI está sendo marcada também pela
+              expansão do conceito de internet das coisas. Com a consolidação
+              da era da informação virtualizada, a necessidade de integrar
+              instâncias do mundo virtual ao físico surgiu e cresce a passos
+              largos. Nesse sentido, o NFC figura com certo pioneirismo,
+              pois permite que objetos, pessoas e lugares se relacionem com
+              conteúdo virtual. <sup><a href="#referencias">[1]</a></sup> Deste
+              modo, justifica-se a recente propulsão que este obteve.
+            </p>
+            <p class="lead">
+              O NFC tem sido implementado em diversas plataformas nas mais
+              variadas camadas do âmbito social. Exemplificando temos pagamentos
+              mobile, jogos eletrônicos,  transporte público, saúde,
+              autenticação, mídias sociais. Essa tecnologia possui um
+              potencial incomensurável, com o apoio devido e a implementação
+              correta pode se espalhar por todo o mundo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Funcionamento-->
+    <section class="bg-primary text-white mb-0" id="funcionamento">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">Funcionamento</h2>
+        <hr class="mb-5">
+        <div class="row">
+          <div class="justifiedText">
+            <p class="lead">
+                O NFC utiliza a tecnologia de indução magnética para estabelecer 
+                a conexão entre dois aparelhos capacitados. Tal tipo de comunicação 
+                é categorizada na sua forma mais simplificada como evolução do 
+                RFID (identificação por radiofrequência). Tecnologias do tipo RFID 
+                surgiram na segunda guerra mundial com o objetivo de identificar 
+                aeronaves em aproximação através da interceptação das ondas de 
+                rádio emitidas pelos comunicadores. Entretanto, não era possível 
+                diferenciar aeronaves inimigas de aliadas. O exército Alemão 
+                percebeu, então, que realizando uma manobra de 360º, era 
+                possível indicar através de variações na radiofrequência que 
+                o avião era aliado.
+                <sup><a href="#referencias" class="text-white">[8]</a></sup> 
+            </p>
+            <p class="lead">O NFC utiliza a tecnologia de indução magnética para
+              estabelecer a conexão entre dois aparelhos capacitados. Tal tipo
+              de comunicação é categorizada na sua forma mais simplificada como
+              evolução do RFID (identificação por radiofrequência). Uma
+              transferência de dados em NFC requer um aparelho iniciador
+              (ou leitor) e um aparelho alvo, ambos portadores da tecnologia.
+              O iniciador gera um campo de ondas de rádio de baixa frequência
+              (tipicamente 13.56MHz) e conforme existe um alvo dentro desse
+              campo o circuito é ativado, configurando uma conexão entre ambos.
+              Tal conexão pode ser dada através de três modos: passivo ou
+              leitura/escrita, ativo ou peer-to-peer e emulador de cartão.
+              <sup><a href="#referencias" class="text-white">[2]</a></sup> </p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-3 col-lg-4 text-center">
+                <img class="img-fluid" src="img/passivo.png" alt=""><br>
+                <label>Leitura/Escrita</label>
+            </div>
+            <div class="col-md-3 col-lg-4 text-center">
+                <img class="img-fluid" src="img/p2p.png" alt=""><br>
+                <label>Peer-to-Peer</label>
+            </div>
+            <div class="col-md-3 col-lg-4 text-center">
+                <img class="img-fluid" src="img/cardemulator.png" alt=""><br>
+                <label>Emulador de cartões</label>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="justifiedText">
+            <p class="lead">
+              No modo passivo, somente o iniciador gera o campo de frequência
+              que energiza o circuito do aparelho alvo e o habilita para
+              leitura e escrita (Reader/Writer). Dentre os diversos exemplos
+              de alvo, os mais comuns são os tags NFC, pequenos circuitos
+              impressos que podem ser colocados nos mais diferentes tipos de
+              objetos. Devido suas similaridades, tags NFC são comparadas com
+              QR codes porém ambas possuem diferentes funcionalidades e design.
+              Tags NFC possibilitam uma conexão bidirecional com capacidade de
+              armazenamento de 32 kilobytes enquanto os QR codes somente apenas
+              fazem uma interação de um dado específico com até 100 bytes.
+              Além disso, QR codes são menos práticos no sentido que o usuário
+              precisa tirar uma foto do mesmo, enquanto nas tags NFC basta o
+              aparelho entrar em contato com a tag. <sup><a class="text-white"
+                href="#referencias">[2][4]</a></sup>
+            </p>
+            <p class="lead">
+              No modo ativo, ambos os aparelhos emitem o campo de frequência de 
+              rádio podendo agir como iniciador ou alvo. Isso se configura em uma 
+              arquitetura de redes conhecida como par a par (do inglês peer to peer, 
+              P2P). Tal funcionamento permite a troca de informações entre dois 
+              aparelhos portadores da tecnologia sem a necessidade de um servidor 
+              central, tornando possível a troca de dados mais complexos. Um exemplo 
+              desse modo de funcionamento é a transferência de arquivos entre dois 
+              dispositivos.
+              <sup><a class="text-white" href="#referencias">[2][4]</a></sup>
+            </p>
+            <p class="lead">
+              O modo emulador de cartão (do inglês card emulator)  é utilizado
+              principalmente por smartphones e faz com que o dispositivo não
+              emita um campo de radiofrequência, ao invés disso o campo é
+              emitido por um dispositivo de leitura que pode ser uma máquina
+              para pagamento com cartões com chip de contato. Esse modo permite
+              que um smartphone seja usado como cartão de crédito ou débito.
+            </p>
+            <p class="lead">
+              Existem padrões internacionais de interface NFC que precisam ser
+              respeitados, tais  são definidos em pares ISO e ECMA.
+              O par ISO/IEC 18092 e ECMA-340 definem o NFCIP, NFC Interface e
+              Protocolo (do inglês Near Field Communication Interface and
+              Protocol), especificando o modo da conexão, a velocidade de
+              transferência de dados, protocolos de transporte, entre outros.
+              Além dele, existe o par ISO/IEC 21481 e ECMA-352 que define o NFCIP-2, 
+              protocolo responsável pela seleção do modo de operação.
+              <sup><a class="text-white" href="#referencias">[2]</a></sup>
+            </p>
+            <br>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <h3 class="text-uppercase text-secondary mb-0">
+              Prevenção de colisão
+          </h3>
+          
+          <div class="justifiedText">
+              <br>
+            <p class="lead">
+              A fim de não perturbar comunicações NFC existentes ou qualquer infraestrutura 
+              utilizando a frequência selecionada, iniciadores NFC deve detectar outros 
+              campos de radiofrequência antes de começar a emitir.
+              
+            
+              Caso o iniciador detecte um campo de RF dentro da janela temporal 
+              T<sub>TAI</sub> + n x T<sub>ERF</sub>, então ele deve reiniciar o processo de prevenção a colisão. 
+              Caso não, este está livre para emitir seu campo de RF.
+              <sup><a class="text-white" href="#referencias">[9]</a></sup>
+              <ul>
+                <li>T<sub>TAI</sub> = Tempo de atraso inicial. Deve ser > 4096/fc.</li>
+                <li>T<sub>ERF</sub> = Tempo de espera por RF. Deve ser 512/fc.</li>
+                <li>n = número aleatório de períodos de TERF. Deve ser 0 ≤ n ≤ 3.</li>
+              </ul>
+              Além disso, após a ativação da RF, o dispositivo aguarda um tempo (T<sub>IRFG</sub>)
+            </p> 
+            <br>  
+          </div>
+
+          <h3 class="text-uppercase text-secondary mb-0">
+              Fluxograma NFCIP-1 
+          </h3>
+          
+          <div class="justifiedText">              
+            <p class="lead">             
+              
+              <ul itemtype="square">
+                <li>
+                    Qualquer equipamento rodando NFCIP-1 deve estar inicialmente no modo “alvo” 
+                    e não gerar campos de radiofrequência. Sendo assim, deve aguardar um comando 
+                    de um dispositivo em modo “iniciador”.<sup><a class="text-white" href="#referencias">[9]</a></sup>
+                </li>
+                <li>
+                    O dispositivo NFCIP-1 poderá trocar para o estado de “iniciador” e selecionar 
+                    um dos modos de comunicação ativa ou passiva e a velocidade de transferência.
+                </li>
+                <li>
+                    O dispositivo iniciador devem testar a presença de campos de radiofrequência 
+                    e não ativar seu campo caso existam outros ao redor.
+                </li>
+                <li>
+                    Se nenhum campo for detectado, o dispositivo iniciador deve ativar o seu 
+                    próprio campo de radiofrequência a fim de ativar o dispositivo alvo.
+                </li>
+                <li>
+                    Comandos de transferência e respostas devem ser trocadas no mesmo modo de 
+                    comunicação e na mesma velocidade de transmissão.
+                </li>
+              </ul>              
+            </p> 
+            <br>  
+          </div>                    
+
+          <h3 class="text-uppercase text-secondary mb-0">
+              Protocolo de transporte 
+          </h3>
+          
+          <div class="justifiedText">              
+            <p class="lead">             
+                É dividido em três partes:
+              <ol itemtype="square">
+                <li>
+                    Ativação do protocolo, que inclui a requisição de atributos e a seleção de parâmetros.
+
+                </li>
+                <li>
+                    O protocolo de transmissão de dados.
+                </li>
+                <li>
+                    O dispositivo iniciador devem testar a presença de campos de radiofrequência 
+                    e não ativar seu campo caso existam outros ao redor.
+                </li>
+                <li>
+                    A desativação do protocolo, incluindo a deseleção e a liberação.
+                </li>                
+              </ol>
+              A figura abaixo especifica a posição do campo de transporte de dados para os formatos indicados.               
+            </p> 
+            <div class="row justify-content-center">
+                <div class="col-8 align-self-center">
+                  <img class="img-fluid" width="1000px" src="img/formatos.png" alt="">
+                </div>
+            </div> <br>
+            <p class="lead">
+                Para fc/128, o byte SB deve ser setado para F0. O byte LEN deve ser igual ao tamanho em bytes 
+                do campo de dados mais um. LEN deve ser um número entre 3 e 255, já que CMD1 e CMD2 são bytes 
+                obrigatórios reservados para setar os comandos enviados. E1 e E2 são os bytes de checagem 
+                redundante cíclica de cada formato. Já os bytes de 1 a n do campo de dados são opcionais e 
+                são usados para carregar a informação propriamente dita.
+            </p>  <br>
+          </div>
+
+          <h3 class="text-uppercase text-secondary mb-0" style="width:453px"> NFCIP-2</h3>
+          
+          <div class="justifiedText"><br>              
+            <p class="lead">             
+                Este protocolo apenas define os padrões para seleção dos modos de operação a seguir:
+              <ul itemtype="square">
+                <li>PCD (dispositivo de acoplamento por proximidade).</li>
+                <li>NFC (utilizando o NFCIP-1).</li>
+                <li>VCD (dispositivo de acoplamento por vizinhança).</li>
+                <li>PICC (cartão de circuito integrado por proximidade).</li>                                       
+              </ul>
+              O fluxograma abaixo define o funcionamento do protocolo:               
+            </p> 
+            <div class="row justify-content-center">
+                <div class="col-8 align-self-center">
+                  <img class="img-fluid" src="img/fluxograma.png" alt="">
+                </div>
+            </div> <br>           
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Ecossistema -->
+    <section id="ecossistema">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Ecossistema</h2>
+        <hr class="mb-5">
+        <div class="row justifiedText">
+          <p class="lead">
+            Como mencionado na introdução, Sony, Nokia e Philips criaram o NFC Forum para 
+            reunir todo o desenvolvimento das tecnologias do NFC. Porém, cada uma dessas 
+            empresas já tinha desenvolvido sua própria versão de NFC, cada uma delas com 
+            diferentes tipos de tags e protocolos.
+          </p>
+          <p class="lead">
+            Esse aspecto na criação do NFC gerou uma particularidade interessante acerca 
+            dessa tecnologia: o estabelecimento de uma vasta gama de protocolos e padrões. 
+            Cada versão possui uma limitação de memória diferente e pode operar com diferentes 
+            taxas de transmissão, além de implementarem mensagens com tamanhos diferentes. 
+            Pode parecer que toda essa variedade prejudique os desenvolvedores, porém a maioria 
+            dos sistemas fornecem API’s que lidam, de forma transparente para o desenvolvedor, 
+            com os diversos tipos de tags e protocolos.
+          </p>
+          <p class="lead">
+            Com isso, diversas aplicações específicas têm sido construídas, aumentando a 
+            relevância e difundindo conhecimento tecnológico. Abaixo, estão listados alguns 
+            desses protocolos, assim como uma discussão sobre a usabilidade de ferramentas 
+            baseadas no NFC.
+          </p>
+        </div><hr>  
+        <h3 class="text-uppercase text-secondary mb-0">
+          Protocolos criados a partir do NFC
+        </h3>
+        <hr>
+        <div class="row justifiedText">
+          <ul type="square">
+            <li>
+              <p class="lead">
+                NDEF Exchange Protocol (SNEP):<br>
+                O protocolo de formato de troca de dados via NFC
+                (do inglês NFC Data Exchange Format) tem por objetivo padronizar
+                a comunicação entre dispositivos no momento do compartilhamento
+                de arquivos. O interessante desta tecnologia é a sua capacidade
+                de configurar transferências de objetos MIME (Extensão de
+                Internet Mail para multipropósitos), URIs ou tipos específicos,
+                o que o permite trocar imagens, PDFs, vídeos e diversos outros
+                tipos de arquivo. Uma mensagem NDEF tem o seguinte formato:
+              </p>
+              <div class="row justify-content-center">
+                <div class="col-8 align-self-center">
+                  <img class="img-fluid" src="img/format.png" alt="">
+                </div>
+              </div>
+              <br>
+              <p class="lead">
+                Onde é especificado um cabeçalho indicando o início e fim da
+                mensagem, um sinal de “arquivo pequeno”, o tamanho do tipo, o
+                tamanho da carga, o tamanho da identificação da cara, o tipo da
+                carga, a identificação da carga e a carga propriamente dita.
+              </p>
+            </li>
+            <li>
+              <p class="lead">
+
+                NFC Logical Link Control Protocol (LLCP):<br>
+                O protocolo LLCP é um protocolo compacto responsável por estruturar 
+                a comunicação peer to peer, P2P, entre dois aparelhos portadores do 
+                NFC sem afetar a operabilidade de aplicações e chips NFC antigos. 
+                Esse protocolo teve como base o IEEE 802.2, padrão de interface 
+                utilizado por grande parte da indústria. Em sua concepção, o LLCP 
+                foi desenvolvido voltado para pequenas aplicações com transferências 
+                de dados pouco complexas e outros protocolos de rede, como IP e TCP. 
+                Em suas especificações existem duas vertentes, sem conexão e conexão 
+                orientada. Na primeira, a configuração é simples porém não existe 
+                confiabilidade e não há um roteamento estabelecido. Em contrapartida, 
+                na segunda a configuração é mais complexa, contudo existe uma maior 
+                confiabilidade, roteamento bem definido, sessões diferentes por meio 
+                de multiplexamento de camadas.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <h3 class="text-uppercase text-secondary mb-0">
+          Aspectos Positivos
+        </h3>
+        <hr>
+        <div class="row justifiedText">
+          <p class="lead">
+              O NFC é uma tecnologia capaz de criar uma conexão rápida baseada na 
+              proximidade de dois aparelhos agindo como uma ponte entre o mundo físico 
+              e o mundo digital. Ao incorporar uma tag NFC, todo objeto no mundo pode 
+              se tornar em uma fonte de dados capacitando a conexão com outro aparelho 
+              e uma troca de dados.  Além disso, a transferência de dados pode ocorrer 
+              com velocidades de 106 Kb/s, 212 Kb/s, 424 Kb/s ou 848 Kb/s, ou seja 
+              podendo realizar transferências de pequenos dados quase que 
+              instantaneamente.<a href="#references"><sup>[7]</sup></a> Devido ao 
+              modo de funcionamento, tais conexões precisam ter uma certa proximidade, 
+              mais ou menos 20cm, para efetivamente ocorrerem. Tal característica 
+              traz segurança para certos tipos de utilização, já que a proximidade 
+              física limita a atuação maliciosa.   <br>           
+          </p>
+        </div>
+        <h3 class="text-uppercase text-secondary mb-0">
+          Desafios para o crescimento
+        </h3>
+        <hr>
+        <div class="row justifiedText">
+          <p class="lead">
+              QR codes e Tags NFC possuem funções no mesmo escopo, porém a adoção de 
+              QR codes pelo mercado foi infinitamente maior, apesar das tags serem 
+              mais rápidas, discretas, práticas e de mais fácil integração aos diversos 
+              tipos de objetos. Os motivos para isso se encontram no fato que as tags 
+              possuem um custo de produção maior que os QR codes e não terem sido 
+              desenvolvido a tecnologia ou aplicação que vai impulsionar o uso de 
+              tags no mercado.
+          </p>
+          <p class="lead">
+              Para uma tecnologia se consolidar é preciso a adesão da mesma nas mais 
+              diferentes esferas do mercado pelo mundo. As pessoas buscam novas tecnologias 
+              procurando realizar certas tarefas do cotidiano mais rapidamente e com maior 
+              facilidade. O NFC é uma tecnologia com um grande potencial de expansão, porém 
+              para isso ocorrer de fato é necessário uma maior utilização                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   no cotidiano do ser humano. Ásia e Europa são os 2 continentes pioneiros em pesquisa e utilização do NFC, entanto os Estados Unidos vem mostrando um maior interesse na área. Conforme um maior interesse na tecnologia seja mostrado, mais recursos serão investidos na mesma. Esse investimento não só impulsiona a expansão do NFC como um maior desenvolvimento tecnológico do mesmo, o possibilitando atingir patamares maiores.              
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Aplicações-->
+    <section id="aplicacoes" class="bg-primary text-white mb-0">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white">Aplicações</h2>
+            <hr class="mb-5">
+            <div class="row">
+                <div class="justifiedText">
+                    <h3 class="text-uppercase text-secondary mb-0">
+                        Transporte público
+                    </h3>
+                  <p class="lead">
+                      Por meio da implantação do NFC no transporte público, a experiência do 
+                      usuário pode ser facilitada de uma forma significativa. Diversos 
+                      aparelhos celulares no mercado já possuem um chip NFC, por meio destes 
+                      se pode controlar todos os diversos aspectos da sua viagem. Em 
+                      detrimento de diversos fatores, pessoas diferentes pagam valores 
+                      diferentes. Por meio do NFC, esse critérios podem ficar atrelados 
+                      ao seu celular ou outro aparelho portador da tecnologia e com um 
+                      simples toque a compra é efetuada no valor certo e enviando um 
+                      recibo imediatamente pro aparelho utilizado. Se torna desnecessária 
+                      a presença de um terceiro para realizar a venda do ingresso. 
+                      Seguindo essa mesma linha de raciocínio, podemos pensar na validação 
+                      do seu ingresso. O usuário manualmente encosta seu aparelho no local 
+                      correspondente e seu ingresso é validado. Em função disso, a quantidade 
+                      de fraudes e filas pode ser drasticamente minimizada. 
+                  </p>
+                  <p class="lead">
+                      Um exemplo de sucesso da implementação do NFC no transporte público ocorreu 
+                      em Londres. Em 2007, um teste foi realizado com 500 pessoas que receberam 
+                      aparelhos celulares portadores do NFC com 3 aplicações. Primeiramente, o O2 
+                      era uma aplicação que permitia os usuários entrarem no bar exclusivo da O2 
+                      somente ao colocar o telefone em contato com o aparelho na entrada do bar. 
+                      Segundo, o Oyster funcionava como uma cartão pré-pago que possibilitava os 
+                      usuários pagar por suas passagens no metrô, ônibus e trens. Terceiro, o 
+                      Barclaycard permitia o usuário controlar seus gastos assim como localizar 
+                      locais próximos que aceitassem meios de pagamento como o NFC. Após finalizado 
+                      os testes, concluíram que os usuários mantiveram um alto nível de satisfação 
+                      e interesse na tecnologia devido a facilidade e conveniência da mesma. 
+                      <a class="text-white" href="#references"><sup>[10]</sup></a>                       
+                  </p>
+                </div><hr class="mb-5">
+                <div class="justifiedText"><br>
+                    <h3 class="text-uppercase text-secondary mb-0">
+                        Pagamentos Mobile
+                    </h3>
+                    <p class="lead">
+                        A aplicação com maior utilização do NFC são os pagamentos mobiles. “Tempo é 
+                        dinheiro”, como a frase explicita vivemos numa sociedade que anseia por 
+                        agilidade e comodidade. Por meio de pagamentos mobile é possível facilitar 
+                        o processo de compra de basicamente qualquer produto. Com o NFC, é possível 
+                        substituir carteiras e seus diversos cartões de crédito por um celular 
+                        portador da tecnologia. Mediante essa implementação, os usuários podem 
+                        realizar pagamentos ao encostar seus telefones em leitores NFC, tornando 
+                        tais processos mais rápidos, evitando filas e descartando a gama de 
+                        problemas que um cartão de crédito pode trazer. Além disso, descontos e 
+                        códigos promocionais podem ser usados de forma instantânea por meio do 
+                        pagamento mobile. 
+                    </p>
+                    <p class="lead">
+                        Um exemplo consolidado é o Apple Pay. Por meio deste serviço, a Apple 
+                        possibilita os usuários de iPhone e Apple Watch cadastrarem seu cartôes em 
+                        uma carteira virtual. Em seguida, o usuário é capaz de realizar seus pagamentos 
+                        ao encostar seu aparelho em um leitor de NFC. Tal método possui um padrão de 
+                        segurança muito alto visto que para desbloquear tais dispositivos somente podem 
+                        ser usadas as digitais do usuário e as transações são encriptadas.
+                    </p>                                              
+                </div>
+                <div class="justifiedText"><br>
+                    <h3 class="text-uppercase text-secondary mb-0">
+                        Autenticação de Dois Fatores
+                    </h3>
+                    <p class="lead">
+                        Uma forma de melhorar a segurança em aplicações é utilizar autenticação de dois 
+                        fatores. Normalmente, após digitar corretamente sua senha, o usuário recebe um 
+                        pedido de confirmação ou um código em seu smartphone para validar sua autenticação. 
+                        Esse sistema funciona muito bem para aplicações em computadores mas não faz muito 
+                        sentido se for uma aplicação no próprio smartphone.
+                    </p>
+                    <p class="lead">
+                        Uma solução para permitir a autenticação de dois fatores em smartphones é a utilização 
+                        de tags NFC que armazenam uma senha. A grande vantagem desse método é que permite que as 
+                        senhas sejam mais complexas visto que não há a limitação do usuário ter que memorizá-la.
+                        <a class="text-white" href="#references"><sup>[13]</sup></a>
+                    </p>
+                </div>
+                <div class="justifiedText"><br>
+                  <h3 class="text-uppercase text-secondary mb-0">
+                      Sistemas de saúde
+                  </h3>
+                  <p class="lead">
+                    Como geralmente existe um grande fluxo de pessoas com os mais variados sintomas em hospitais, 
+                    são comuns casos no qual um médico ou enfermeiro confunde o tratamento destinado a um paciente 
+                    com o de outro. Esses erros muitas vezes são fatais. O uso do NFC nesse ambiente permite que 
+                    cada paciente seja identificado por uma tag única que pode ser facilmente lida por um smartphone, 
+                    reduzindo assim problemas com a identificação do paciente. 
+                  </p>
+                  <p class="lead">
+                    Além disso, a tag pode fornecer um rápido acesso a ficha do paciente digitalizada o que acaba 
+                    sendo muito mais prático do que carregar em papel a ficha de todos os pacientes de um setor do 
+                    hospital. 
+                  </p>
+                  <p class="lead">
+                    Essas características fazem com que o uso do NFC em ambiente hospitalar torne o atendimento 
+                    mais rápido e seguro.<a href="#references" class="text-white"><sup>[14]</sup></a> 
+                  </p>
+                </div>
+                <div class="justifiedText"><br>
+                  <h3 class="text-uppercase text-secondary mb-0">
+                      Outras Aplicações
+                  </h3>
+                  <p class="lead">
+                      Uma outra aplicação bastante importe do NFC é a  One Touch que visa facilitar a conexão 
+                      entre dispositivos. Essa funcionalidade permite que dois dispositivos com tags NFC se 
+                      conectem, sem necessidade de nenhum tipo de configuração do usuário, ao serem aproximados 
+                      um do outro. Dessa forma, por exemplo, um fone de ouvido com tecnologia Bluetooth pode possuir 
+                      uma tag NFC que armazena as informações de pareamento e as repassa para um celular.
+                  </p>
+                  <p class="lead">
+                      O NFC também pode ser usado para inicializar serviços em um dispositivo. Por exemplo, em alguns 
+                      museus há tags NFC que carregam informações como o endereço de um web site com mais detalhes do 
+                      objeto exposto. Quando um smartphone se aproxima desta tag o navegador web ou outro aplicativo é 
+                      inicializado mostrando a informação referente ao objeto.
+                  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Conclusão-->
+    <section id="conclusao">
+        <div class="container">
+          <h2 class="text-center text-uppercase">Conclusão</h2>
+          <hr>
+          <div class="row">
+              <div class="justifiedText">
+                <p class="lead">
+                    As tecnologias sem fio se consolidaram na primeira década do século XXI e nos dias 
+                    de hoje caminham para integração de diversas funções em um único dispositivo. Tal 
+                    tendência se confirma pelo crescimento exponencial do número de smartphones desde 2010. 
+                    Nesse sentido, o NFC se destaca por viabilizar a integração de tecnologias. O exemplo mais 
+                    característico deste potencial é a sua utilização em pagamentos mobile.
+                </p>
+                <p class="lead">
+                    A perspectiva é de que a aderência da tecnologia seja cada vez maior, não se restringindo 
+                    a pagamentos, uma vez que a facilidade de se realizar processos a partir de uma simples 
+                    aproximação de dispositivos já presentes em nosso dia a dia tem se evidenciado. Entretanto, 
+                    alguns desafios são enfrentados e devem ser superados nos próximos. É necessário garantir a 
+                    segurança das ações realizadas e também capacitar o mundo em que vivemos para interagir com o NFC.
+                </p>
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Perguntas-->
+    <section id="perguntas" class="bg-primary text-white mb-0">
+        <div class="container">
+            <h2 class="text-center text-uppercase">Perguntas</h2>
+            <hr class="mb-5">
+            <div class="row">
+                <div class="justifiedText">
+                  <p class="lead">
+                     <u> 1 - Como é feita a prevenção de colisão? </u><br>
+                      R: O dispositivo iniciador verifica a presença de campos RF existentes ao seu redor a fim de 
+                      garantir de nenhuma comunicação pré-existente seja prejudicada com a sua emissão ondas RF.
+                  </p>
+                  <p class="lead">
+                      <u>2 - Como funciona a conexão NFC no modo ativo?<br></u>
+                      R: No modo ativo, ambos os dispositivos emitem campo RF, podendo ser iniciadores ou alvos. 
+                      O uso mais comum é na arquitetura P2P, onde ocorre comunicação diretamente entre 2 dispositivos.
+                  </p>
+                  <p class="lead">
+                      <u>3 - Como funciona a conexão NFC no modo passivo?<br></u>
+                      R: No modo passivo, somente o iniciador gera o campo de frequência que energiza o circuito do aparelho 
+                      alvo e o habilita para leitura e escrita (Reader/Writer). 
+                  </p>
+                  <p class="lead">
+                      <u>4 - Quais os motivos para maior aderência do QR code em relação às NFC tags?<br></u>
+                      R: O custo de produção das NFC tags ainda é bem superior. Além disso, existe uma carência de tecnologias 
+                      que impulsionem o uso do NFC.
+                  </p>
+                  <p class="lead">
+                      <u> 5 - Qual o aspecto positivo do NFC em relação à segurança de dados?<br></u>
+                      R: Limitação física do acesso aos dados. Ou seja, a distância necessária para o funcionamento da 
+                      tecnologia impede parcialmente que usuários maliciosos interceptem ou realizem transações.
+                  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bibliografia -->
+    <section id="referencias">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Referências Bibliográficas</h2>
+        <hr class="mb-5">
+        <div class="row justifiedText">
+          <ol class="listaReferencias">
+            <li>
+                R. Want, "Near field communication", IEEE Pervasive Computing,
+                vol. 10, no. 3, pp. 4-7, July-September 2011.
+                doi:10.1109/MPRV.2011.55
+            </li>
+            <li>
+              McHugh , S. , and K. Yarmey, "Near Field Communication:
+              Introduction and Implications", Journal of Web Librarianship 6,
+              no. 3, pp.  186 – 207,  August 2012.
+              doi: 10.1080/19322909.2012.700610.
+            </li>
+            <li>
+              W. Hufstetler, M. Ramos, S. Wang, "NFC Unlock: Secure Two-Factor
+              Computer Authentication Using NFC", Mobile Ad Hoc and Sensor
+              Systems (MASS), October 2017. doi: 10.1109/MASS.2017.87
+            </li>
+            <li>
+              G. Ukalkar, P. Halgaonkar, "Cloud based NFC Health Card System",
+              Intelligent Computing and Control Systems (ICICCS), June 2017.
+              doi:10.1109/ICCONS.2017.8250760
+            </li>
+            <li>
+              R. Mair, "Protocol - Independent Detection of Passive Transponders
+              for Near Field Communication Systems", IEEE Transactions,
+              Instrumentation and Measurement, vol 59, pp. 814 - 819,
+              April 2010. doi: 10.1109/TIM.2009.2021243
+            </li>
+            <li>
+              <a href="https://www.techradar.com/news/what-is-nfc">"What is NFC?"</a>
+              Acessado em: 07/05/2018 às 17h18.
+            </li>
+            <li>
+              <a href="http://www.apcmag.com/inside-nfc-how-near-field-communication-works.htm/">
+                “Inside NFC: How near field communication works”
+              </a>
+              Acessado em: 07/05/2018 às 17h18.
+            </li>
+            <li>
+                <a href="https://www.gta.ufrj.br/grad/07_1/rfid/RFID_arquivos/Index.htm">
+                  “RFID”
+                </a>
+                Acessado em: 20/05/2018 às 13h23.
+            </li>
+            <li>
+                <a href="https://www.iso.org/standard/56692.html">[ISO18092]</a>
+                ISO/IEC stage 18092:2013: Information technology -- Telecommunications 
+                and information exchange between systems -- Near Field Communication -- 
+                Interface and Protocol (NFCIP-1), March 2013.
+                International Organization for Standardization, Geneva, Switzerland.               
+            </li>
+            <li>
+                <a href=" https://nfc-forum.org/wp-content/uploads/2013/12/NFC-in-Public-Transport.pdf">
+                  “NFC in Public Transportation”
+                </a>
+                Acessado em: 29/05/2018 às 22h45.
+            </li>
+            <li>
+                M. Crossman, H. Liu. "Two-factor authentication through near field communication",
+                Technologies for Homeland Security (HST), May 2016.
+                doi:10.1109/THS.2016.7568941
+            </li>
+            <li>
+                V. Patil, N. Varma, S. Vinchurkar. “NFC based health monitoring and controlling system”,
+                Wireless Computing and Networking (GCWCN), Lonavala, India, December 2014.
+                doi:10.1109/GCWCN.2014.7030864
+            </li>              
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; GTA UFRJ 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+  </body>
+
+</html>
